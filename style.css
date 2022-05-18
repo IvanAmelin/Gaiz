@@ -12,6 +12,10 @@
 body {
     background-color: #e8e8e8;
 }
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -133,66 +137,16 @@ header img {
     text-align: center;
     vertical-align: middle;
 }
-
-.etiketki {
-    position: relative;
-    background-image: url(img/img1-etiketki.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 530px;
-}
-.bignakl {
-    position: relative;
-    background-image: url(img/img2-bignakl.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
+.etiketki .nakl-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     
 }
-.proznakl {
-    position: relative;
-    background-image: url(img/img3-proznakl.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    
-    
-}
-.stikerset {
-    position: relative;
-    background-image: url(img/img4-stikerset.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    
-    
-}
-.perfnakl {
-    position: relative;
-    background-image: url(img/img5-perfnakl.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    
-    
-}
-.napolnakl {
-    position: relative;
-    background-image: url(img/img6-napolnakl.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    
-    
-}
-.naklbez {
-    position: relative;
-    background-image: url(img/img7-naklbez.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    
-    
+.etiketki .nakl-img img {
+    height: 100%;
 }
 .button-nakl {
     padding: 20px 0;
@@ -207,6 +161,7 @@ header img {
 
 .pick{
     border-radius: 10px;
+    position: relative;
 }
 .pick:hover {
     cursor: pointer;
@@ -216,4 +171,52 @@ header img {
     background-color: rgb(255, 219, 0);
     color: black;
 }
+.quality {
+    
+    color: rgb(0, 0, 0);
+}
+.cont2-img {
+    font-size: 30px;
+    background-color: white;
+    color:#131102;;
+    text-align: center;
+    padding: 80px 40px 80px 40px;
+    border: 5px solid #000000;
+    border-radius: 100%;
+}
+.cont2-img:hover {
+    background-color: rgb(255, 219, 0);
+    color:#ffffff;;
+    border: 5px solid #ffffff;
+}
+.quality .fa-solid {
+    font-size: 50px;
+}
+.textcol2-2 {
+    text-align: center;
+    padding-top: 20px;
+}
+.clients .col-12 {
+    text-align: center;
+}
+.clients .col-2 {
+    display: flex;
+    border: 5px solid #ffdb00;
+    padding: 5px 10px 5px 10px;
+    align-content: center;
+    background-color: #000000;
+}
+.clients .col-2:hover {
+    color: #000000;
+    border: 5px solid #000000;
+    background-color: #ffdb00;
+}
+.video .col-12 {
+    height: 100%;
+}
+iframe {
+    width: 97.5%;
+    height: 500px;
+}
+
 
